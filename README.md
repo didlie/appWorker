@@ -5,7 +5,7 @@ Install:
 Just put all three files in the same folder and open the index.html file in a webworker enabled browser, like Chrome.
 
 Features:
-The main feature here is the app.js file and the appWorker() function designed to maintain a store and loading mechanism for a applications group of webworkers. 
+The main feature here is the app.js file and the appWorker() function designed to maintain a store and loading mechanism for a web application's group of webworkers. 
 
 Usage:
 To use the demo "counter.js" script, just click [Run Script] and watch the counter count +1 every second.
