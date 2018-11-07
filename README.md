@@ -1,11 +1,11 @@
-/****************************************************/
-/*** (c) Isaac Jacobs Krishna Christopher Deilson ***/
-/********* republication and/or use of this code*****/
-/****requires publication of this (c) notice ********/
-/******************** 11/7/2018 *********************/
-/************* use at your own risk :-) *************/
-/******* never went to MIT ! ************************/
-/****************************************************/
+# /****************************************************/
+# /*** (c) Isaac Jacobs Krishna Christopher Deilson ***/
+# /********* republication and/or use of this code*****/
+# /****requires publication of this (c) notice ********/
+# /******************** 11/7/2018 *********************/
+# /************* use at your own risk :-) *************/
+# /******* never went to MIT ! ************************/
+# /****************************************************/
 
 # appWorker
 Fun little Webworker control and manipulation class to encapsulate and keep track of your available and running webworkers, 
