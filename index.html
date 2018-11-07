@@ -1,0 +1,29 @@
+<style>
+#textLog{
+    width:100%;
+    height:300px;
+}
+</style>
+<script src="app.js"></script>
+<h1>WebWorkers</h1>
+<textarea id="textLog" readonly></textarea>
+<button id='start1'>Run Script</button>
+<script>
+
+    var button1 = document.getElementById("start1");
+    var log1 = document.getElementById("textLog");
+
+/*** Example of appWorker implementation ***/
+    var callbackfunction = function(x){
+        log1.value = "Seconds: " + x;
+    }
+
+    button1.addEventListener("click",function(){
+        log1.value = "Script Started";
+        appWorker.make("counter","counter.js");
+        appWorker.run("counter","start",callbackfunction)
+    });
+/*******************************************/
+    log1.value = (window.Worker)? "window.Worker = " + window.Worker : "Worker not available on this browser";
+
+</script>
